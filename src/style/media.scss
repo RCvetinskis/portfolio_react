@@ -1,0 +1,52 @@
+
+// sidebar mobile
+@media  (max-width: 854px) {
+    .ul-nav{
+        display: none!important;
+    }
+    .resume{
+        width: 150px;
+        height: 40px;
+    }
+  
+    .logo-container{
+        margin: 0!important;
+        z-index: 10;
+    }
+  
+  }
+
+  @media (max-width:524px) {
+    .left-side{
+        width:30%!important;
+
+    }
+    .ul-burger{
+        width: 70%!important;
+    }
+  
+    
+  }
+
+@media  (min-width: 855px) {
+  
+    .sideBar-container{
+        display: none!important;
+    }
+
+    .burger{
+        display: none!important;
+    }
+  }
+
+//   article text
+
+@media (max-width:630px) {
+    .text-wrap h1{
+        font-size: 2em!important;
+    }
+    .intro{
+        font-size: 1em!important;
+    }
+    
+}

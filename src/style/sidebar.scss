@@ -1,0 +1,29 @@
+// sidebar
+
+.sideBar-container{
+    backdrop-filter: blur(10px);
+    position: fixed;
+    top: 10%;
+    width: 100%;
+    height: 100vh;
+  
+
+}
+.left-side{
+    width: 50%;
+}
+
+.ul-burger{
+    background-color: #112240;
+    width: 50%;
+    margin: 0;
+    height: 100%;
+    position: absolute;
+    top: -10%;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
