@@ -5,7 +5,8 @@
   margin: 0;
   padding: 0;
   list-style: none;
-  text-decoration: none;
+  text-decoration: none!important;
+
 
 }
 body {
@@ -24,3 +25,28 @@ body {
 
   }
 
+  // scrollbar style
+
+  /* width */
+::-webkit-scrollbar {
+  width: 10px;
+
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: $darkblue-color; 
+
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: $grey-color; 
+
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: $green-color; 
+
+}

@@ -1,7 +1,7 @@
 nav{
     font-size: 0.8rem;
     padding: 10px;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 .logo-container{
     margin-left: 40px;
@@ -37,6 +37,9 @@ nav ul li:hover{
     padding: 5px 7px;
     width: 80px;
     transition: 0.3s ease-out;
+   a{
+        color: inherit!important;
+    }
 }
 .resume:hover{
     opacity: 0.7;

@@ -5,3 +5,16 @@
     border-radius: 4px;
    
 }
+@mixin repo-btn {
+    background-color: $darkblue-color;
+    border: 1px solid $green-color;
+    color: $grey-color;
+    border-radius: 4px;
+    transition: 0.3s ease-in-out;
+    
+}
+@mixin repo-btn-hover {
+    transform: scale(1.1);
+    color: $green-color;
+    
+}

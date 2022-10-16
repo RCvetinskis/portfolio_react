@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Logo from "../assets/mylogo.gif";
+import MyCv from "../assets/robertas-cvetinskis.pdf";
 const Navigation = ({ showContent, setShowContent }) => {
   const [showBurger, setShowBurger] = useState(false);
 
@@ -80,7 +81,10 @@ const Navigation = ({ showContent, setShowContent }) => {
           Contact
         </li>
         <li>
-          <button className="resume">Resume</button>
+          {" "}
+          <a target="_blank" href={MyCv}>
+            <button className="resume">Resume</button>
+          </a>
         </li>
       </ul>
 
@@ -187,7 +191,9 @@ const Navigation = ({ showContent, setShowContent }) => {
               Contact
             </li>
             <li>
-              <button className="resume">Resume</button>
+              <a target="_blank" href={MyCv}>
+                <button className="resume">Resume</button>
+              </a>
             </li>
           </ul>
         </div>

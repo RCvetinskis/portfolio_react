@@ -1,4 +1,14 @@
 
+// medium screen 
+
+@media (max-width: 1000px) {
+    .repo-container header h1{
+        margin-bottom: 20px!important;
+        font-size: 3em!important;
+    }
+    
+}
+
 // sidebar mobile
 @media  (max-width: 854px) {
    
@@ -14,7 +24,7 @@
         margin: 0!important;
         z-index: 10;
     }
-  
+   
   }
 
   @media (max-width:524px) {
@@ -26,8 +36,18 @@
     .ul-burger{
         width: 70%!important;
     }
-  
+    footer{
+        background-color: #02183a;
+    }
+    // repo
+   .repo-container{
+    .repo{
+        font-size: 1em!important;
+    }
+   
+   }
     
+   
   }
 
 @media  (min-width: 855px) {
@@ -58,6 +78,12 @@
     .intro{
         font-size: 1em!important;
     }
+    .repo-container header h1{
+        margin-bottom: 20px!important;
+        font-size: 1.5em!important;
+    }
+    
     
 }
+
 

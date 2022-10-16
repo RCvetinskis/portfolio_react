@@ -5,6 +5,7 @@ import About from "./components/About";
 import Repositories from "./components/Repositories";
 import { Helmet } from "react-helmet-async";
 import { useState } from "react";
+import LoadingBox from "./components/LoadingBox";
 
 function App() {
   // singlepage , on navigation click show content with sliding animation, for project use react slick, repositories fetch with github api,
@@ -17,7 +18,6 @@ function App() {
       </Helmet>
 
       <Navigation setShowContent={setShowContent} showContent={showContent} />
-
       <div className="container-md">
         {showContent === "About" ? (
           <About />

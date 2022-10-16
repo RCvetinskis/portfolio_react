@@ -1,5 +1,32 @@
 
 
+.repo-container{
+    height: 80vh;
+    overflow: auto;
+  
+}
 header h1{
     color:$green-color;
+    margin-bottom: 50px;
+    font-size: 4em;
+}
+.repo {
+    padding: 5px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 1.4em;
+    gap: 10px;
+    a {
+        color: inherit;
+        @include repo-btn;
+        padding: 5px 7px;
+        transition: 0.3s ease-out;
+        width: 400px;
+        text-align: center;
+    }
+    a:hover{
+        @include repo-btn-hover
+    }
 }
