@@ -1,0 +1,33 @@
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 3.5rem;  
+    padding: 7px; 
+ 
+  
+    .contact-icons{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+      
+      
+    }
+  a{
+    color: $grey-color!important;
+  }
+   
+i{
+    font-size: 2em;
+    transition: 0.2s ease-out;
+    
+    
+}
+i:hover{
+    cursor: pointer;
+   transform: translate(10%, -10% );
+   color: $green-color;
+}
+
+}

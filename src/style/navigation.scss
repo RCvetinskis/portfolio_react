@@ -1,13 +1,18 @@
 nav{
     font-size: 0.8rem;
     padding: 10px;
+    margin-bottom: 50px;
 }
 .logo-container{
     margin-left: 40px;
-  
 }
 .logo-container img{
     width: 100px;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
 }
 
 nav ul{
@@ -17,7 +22,8 @@ nav ul{
 }
 
 nav ul li{
-    transition: 0.1s ease-in-out
+    transition: 0.1s ease-in-out;
+    padding: 5px;
 }
 nav ul li:hover{
     cursor: pointer;

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Logo from "../assets/mylogo.gif";
-const Navigation = () => {
+const Navigation = ({ showContent, setShowContent }) => {
   const [showBurger, setShowBurger] = useState(false);
 
   return (
@@ -9,11 +9,76 @@ const Navigation = () => {
         <img src={Logo} alt="" />
       </div>
       <ul className="ul-nav d-flex align-items-center gap-3">
-        <li>About</li>
-        <li>GitHub Repositories</li>
-        <li>Knowledge</li>
-        <li>Projects</li>
-        <li>Contact</li>
+        <li
+          style={
+            showContent === "About"
+              ? {
+                  color: "#06d6a0",
+                  transform: "translate(0%, 30%)",
+                  boxShadow: "2px 2px #06d6a0",
+                }
+              : { color: "inherit" }
+          }
+          onClick={() => setShowContent("About")}
+        >
+          About
+        </li>
+        <li
+          style={
+            showContent === "Github"
+              ? {
+                  color: "#06d6a0",
+                  transform: "translate(0%, 30%)",
+                  boxShadow: "2px 2px #06d6a0",
+                }
+              : { color: "inherit" }
+          }
+          onClick={() => setShowContent("Github")}
+        >
+          GitHub Repositories
+        </li>
+        <li
+          style={
+            showContent === "Knowledge"
+              ? {
+                  color: "#06d6a0",
+                  transform: "translate(0%, 30%)",
+                  boxShadow: "2px 2px #06d6a0",
+                }
+              : { color: "inherit" }
+          }
+          onClick={() => setShowContent("Knowledge")}
+        >
+          Knowledge
+        </li>
+        <li
+          style={
+            showContent === "Projects"
+              ? {
+                  color: "#06d6a0",
+                  transform: "translate(0%, 30%)",
+                  boxShadow: "2px 2px #06d6a0",
+                }
+              : { color: "inherit" }
+          }
+          onClick={() => setShowContent("Projects")}
+        >
+          Projects
+        </li>
+        <li
+          style={
+            showContent === "Contact"
+              ? {
+                  color: "#06d6a0",
+                  transform: "translate(0%, 30%)",
+                  boxShadow: "2px 2px #06d6a0",
+                }
+              : { color: "inherit" }
+          }
+          onClick={() => setShowContent("Contact")}
+        >
+          Contact
+        </li>
         <li>
           <button className="resume">Resume</button>
         </li>
@@ -36,11 +101,91 @@ const Navigation = () => {
         <div className="sideBar-container">
           <div className="left-side"></div>
           <ul className="ul-burger ">
-            <li>About</li>
-            <li>GitHub Repositories</li>
-            <li>Knowledge</li>
-            <li>Projects</li>
-            <li>Contact</li>
+            <li
+              style={
+                showContent === "About"
+                  ? {
+                      color: "#06d6a0",
+                      transform: "translate(0%, 30%)",
+                      boxShadow: "2px 2px #06d6a0",
+                    }
+                  : { color: "inherit" }
+              }
+              onClick={() => {
+                setShowContent("About");
+                setShowBurger(!showBurger);
+              }}
+            >
+              About
+            </li>
+            <li
+              style={
+                showContent === "Github"
+                  ? {
+                      color: "#06d6a0",
+                      transform: "translate(0%, 30%)",
+                      boxShadow: "2px 2px #06d6a0",
+                    }
+                  : { color: "inherit" }
+              }
+              onClick={() => {
+                setShowContent("Github");
+                setShowBurger(!showBurger);
+              }}
+            >
+              GitHub Repositories
+            </li>
+            <li
+              style={
+                showContent === "Knowledge"
+                  ? {
+                      color: "#06d6a0",
+                      transform: "translate(0%, 30%)",
+                      boxShadow: "2px 2px #06d6a0",
+                    }
+                  : { color: "inherit" }
+              }
+              onClick={() => {
+                setShowContent("Knowledge");
+                setShowBurger(!showBurger);
+              }}
+            >
+              Knowledge
+            </li>
+            <li
+              style={
+                showContent === "Projects"
+                  ? {
+                      color: "#06d6a0",
+                      transform: "translate(0%, 30%)",
+                      boxShadow: "2px 2px #06d6a0",
+                    }
+                  : { color: "inherit" }
+              }
+              onClick={() => {
+                setShowContent("Projects");
+                setShowBurger(!showBurger);
+              }}
+            >
+              Projects
+            </li>
+            <li
+              style={
+                showContent === "Contact"
+                  ? {
+                      color: "#06d6a0",
+                      transform: "translate(0%, 30%)",
+                      boxShadow: "2px 2px #06d6a0",
+                    }
+                  : { color: "inherit" }
+              }
+              onClick={() => {
+                setShowContent("Contact");
+                setShowBurger(!showBurger);
+              }}
+            >
+              Contact
+            </li>
             <li>
               <button className="resume">Resume</button>
             </li>

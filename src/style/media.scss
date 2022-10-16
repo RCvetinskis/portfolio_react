@@ -1,6 +1,7 @@
 
 // sidebar mobile
 @media  (max-width: 854px) {
+   
     .ul-nav{
         display: none!important;
     }
@@ -17,6 +18,7 @@
   }
 
   @media (max-width:524px) {
+ 
     .left-side{
         width:30%!important;
 
@@ -42,6 +44,14 @@
 //   article text
 
 @media (max-width:630px) {
+    .img-container{
+        text-align: center;
+    }
+      .img-container {
+        width: 250px!important;
+       
+      }
+      
     .text-wrap h1{
         font-size: 2em!important;
     }
@@ -50,3 +60,4 @@
     }
     
 }
+
