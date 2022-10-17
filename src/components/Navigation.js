@@ -82,7 +82,7 @@ const Navigation = ({ showContent, setShowContent }) => {
         </li>
         <li>
           {" "}
-          <a target="_blank" href={MyCv}>
+          <a rel="noreferrer" target="_blank" href={MyCv}>
             <button className="resume">Resume</button>
           </a>
         </li>
@@ -191,7 +191,7 @@ const Navigation = ({ showContent, setShowContent }) => {
               Contact
             </li>
             <li>
-              <a target="_blank" href={MyCv}>
+              <a rel="noreferrer" target="_blank" href={MyCv}>
                 <button className="resume">Resume</button>
               </a>
             </li>

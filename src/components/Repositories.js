@@ -57,7 +57,7 @@ const Repositories = ({ showContent }) => {
       ) : (
         <div className="repo ">
           {repos.map((x, i) => (
-            <a key={i} target="_blank" href={x.html_url}>
+            <a rel="noreferrer" key={i} target="_blank" href={x.html_url}>
               {x.name}
             </a>
           ))}

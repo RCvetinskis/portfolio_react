@@ -28,6 +28,20 @@
   }
 
   @media (max-width:524px) {
+    // knwoledge
+
+    .knowledge{
+        font-size: 0.8em!important;
+        
+    }
+    .knowledge h1, h2,h5{
+        font-size: 1.3em;
+    }
+    .experience-container{
+        flex-direction: column;
+        gap: 2px!important;
+    }
+    
  
     .left-side{
         width:30%!important;
@@ -70,6 +84,9 @@
       .img-container {
         width: 250px!important;
        
+      }
+      .diploma {
+        width: 250px!important;
       }
       
     .text-wrap h1{

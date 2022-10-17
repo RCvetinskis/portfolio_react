@@ -1,0 +1,96 @@
+.knowledge{
+   
+    h1, h2, h5 {
+        color: $green-color;
+    }
+    
+   
+}
+.experience-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 50px;
+   
+    
+}
+
+
+
+
+
+.year-container p {
+    font-size: 0.9em;
+    color: lightgrey;
+   
+
+}
+
+
+
+
+
+
+.diploma{
+    width: 500px;
+    position: relative;
+    z-index: 1;
+    border-radius: 8px;
+    a{
+        color: inherit;
+        
+        text-decoration: none;
+    
+    }
+ 
+}
+.diploma img{
+    width: 100%;
+    border-radius: 8px;
+}
+
+
+
+// image animation
+.diploma::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: inherit;
+    height: 100%;
+    background-color: #06d69e5e;
+    transition: 0.3s ease-in-out;
+    border-radius: 8px;
+    pointer-events: none;
+}
+.diploma::after{
+    content: "";
+    position: absolute;
+    top: 4%;
+    right: -5%;
+    width: inherit;
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    border: 3px solid $green-color;
+    z-index: -1;
+    transition: 0.1s ease-in-out ;
+    pointer-events: none;
+}
+
+.diploma:hover::before{
+    background-color: inherit ;
+    content: "https://codeacademy.lt/programavimo-kursai/typescript/";
+    font-weight: bolder;
+    text-align: center;
+    background-color: black;
+    opacity: 0.3;
+    cursor: pointer;
+
+   
+    }
+    .diploma:hover::after{
+    transform: translate(-2%, -2%);
+    }
+    
