@@ -1,0 +1,15 @@
+.upcomming-projects {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  .about-project {
+    width: 400px;
+    min-height: 300px;
+    padding: 5px;
+    color: $green-color;
+    flex-grow: 1;
+  }
+}

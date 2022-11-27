@@ -1,10 +1,16 @@
 import React from "react";
+import { Helmet } from "react-helmet-async";
 import DiplomoPhoto from "../assets/dipomaphoto.png";
 
 const Knowledge = () => {
   return (
     <div className="knowledge">
-      <h1>Experience</h1>
+      <Helmet>
+        <title>Experience</title>
+      </Helmet>
+      <header>
+        <h1>Experience</h1>
+      </header>
 
       <div className="experience-container ">
         <div className="year-container">

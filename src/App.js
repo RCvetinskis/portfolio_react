@@ -4,6 +4,7 @@ import Footer from "./components/Footer";
 import About from "./components/About";
 import Repositories from "./components/Repositories";
 import Knowledge from "./components/Knowledge";
+import ProjectsContainer from "./components/ProjectsContainer";
 import { Helmet } from "react-helmet-async";
 import { useState } from "react";
 
@@ -25,6 +26,8 @@ function App() {
           <Repositories showContent={showContent} />
         ) : showContent === "Knowledge" ? (
           <Knowledge />
+        ) : showContent === "Projects" ? (
+          <ProjectsContainer />
         ) : (
           <About />
         )}

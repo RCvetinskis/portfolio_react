@@ -3,13 +3,10 @@
 .repo-container{
     height: 80vh;
     overflow: auto;
+   
   
 }
-header h1{
-    color:$green-color;
-    margin-bottom: 50px;
-    font-size: 4em;
-}
+
 .repo {
     padding: 5px 10px;
     display: flex;

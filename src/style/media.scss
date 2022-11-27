@@ -1,106 +1,120 @@
+// small phones
 
-// medium screen 
+@media (max-width: 375px) {
+  .knowledge {
+    overflow: auto !important;
+  }
+}
+// medium screen
 
 @media (max-width: 1000px) {
-    .repo-container header h1{
-        margin-bottom: 20px!important;
-        font-size: 3em!important;
-    }
-    
+  .repo-container header h1 {
+    margin-bottom: 20px !important;
+  }
 }
 
 // sidebar mobile
-@media  (max-width: 854px) {
-   
-    .ul-nav{
-        display: none!important;
-    }
-    .resume{
-        width: 150px;
-        height: 40px;
-    }
-  
-    .logo-container{
-        margin: 0!important;
-        z-index: 10;
-    }
-   
+@media (max-width: 854px) {
+  .ul-nav {
+    display: none !important;
+  }
+  .resume {
+    width: 150px;
+    height: 40px;
   }
 
-  @media (max-width:524px) {
-    // knwoledge
+  .logo-container {
+    margin: 0 !important;
+    z-index: 10;
+  }
+}
 
-    .knowledge{
-        font-size: 0.8em!important;
-        
-    }
-    .knowledge h1, h2,h5{
-        font-size: 1.3em;
-    }
-    .experience-container{
-        flex-direction: column;
-        gap: 2px!important;
-    }
-    
- 
-    .left-side{
-        width:30%!important;
-
-    }
-    .ul-burger{
-        width: 70%!important;
-    }
-    footer{
-        background-color: #02183a;
-    }
-    // repo
-   .repo-container{
-    .repo{
-        font-size: 1em!important;
-    }
-   
-   }
-    
-   
+@media (max-width: 524px) {
+  // knwoledge
+  .knowledge {
+    font-size: 0.8em !important;
+  }
+  .knowledge h1 {
+    font-size: 2em;
+    margin-bottom: 5px;
+  }
+  .knowledge h2,
+  h5 {
+    font-size: 1.3em;
+  }
+  .experience-container {
+    flex-direction: column;
+    align-items: baseline !important;
+    gap: 2px !important;
   }
 
-@media  (min-width: 855px) {
-  
-    .sideBar-container{
-        display: none!important;
-    }
-
-    .burger{
-        display: none!important;
+  .left-side {
+    width: 30% !important;
+  }
+  .ul-burger {
+    width: 70% !important;
+  }
+  footer {
+    background-color: #02183a;
+  }
+  // repo
+  .repo-container {
+    .repo {
+      font-size: 1em !important;
     }
   }
+  // projcets
+  .robinzona {
+    margin: 20px 10px;
+  }
+  .project-info {
+    display: none !important;
+  }
+  .projectInfo-mobile {
+    display: block !important;
+    padding: 10px;
+    margin: 20px 10px;
+    background-color: #06d69e5e;
+    border-radius: 8px;
+  }
+
+  //   phone app
+  .about-project {
+    font-size: 0.8em !important;
+  }
+}
+
+@media (min-width: 855px) {
+  .sideBar-container {
+    display: none !important;
+  }
+
+  .burger {
+    display: none !important;
+  }
+}
 
 //   article text
 
-@media (max-width:630px) {
-    .img-container{
-        text-align: center;
-    }
-      .img-container {
-        width: 250px!important;
-       
-      }
-      .diploma {
-        width: 250px!important;
-      }
-      
-    .text-wrap h1{
-        font-size: 2em!important;
-    }
-    .intro{
-        font-size: 1em!important;
-    }
-    .repo-container header h1{
-        margin-bottom: 20px!important;
-        font-size: 1.5em!important;
-    }
-    
-    
+@media (max-width: 630px) {
+  .img-container {
+    text-align: center;
+  }
+  .img-container {
+    width: 250px !important;
+  }
+  .diploma {
+    width: 200px !important;
+  }
+
+  .text-wrap h1 {
+    font-size: 2em !important;
+  }
+  .intro {
+    font-size: 1em !important;
+  }
+  .repo-container header h1 {
+    margin-bottom: 20px !important;
+    font-size: 1.5em !important;
+  }
 }
-
-

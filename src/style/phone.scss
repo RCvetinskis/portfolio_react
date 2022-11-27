@@ -1,0 +1,38 @@
+.phone {
+  background-color: $grey-color;
+  width: 300px;
+  height: 60vh;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  .screen {
+    background: url("../assets/gym-gif.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 95%;
+    height: 100%;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 12px;
+  }
+  .pause {
+    background: url("../assets/Screenshot_2022-11-27-17-49-43-001_host.exp.exponent.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 95%;
+    height: 100%;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 12px;
+  }
+  .btn-container {
+    padding-bottom: 5px;
+    button {
+      width: 100px;
+      border: none;
+      border-radius: 2px;
+    }
+  }
+}
