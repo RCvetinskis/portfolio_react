@@ -9,7 +9,6 @@ import { Helmet } from "react-helmet-async";
 import { useState } from "react";
 
 function App() {
-  // singlepage , on navigation click show content with sliding animation, for project use react slick, repositories fetch with github api,
   const [showContent, setShowContent] = useState("About");
 
   return (
