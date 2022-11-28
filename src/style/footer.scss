@@ -1,33 +1,36 @@
-footer{
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 3rem;  
-    padding: 7px; 
-   
-  
-    .contact-icons{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 40px;
-      
-      
-    }
-  a{
-    color: $grey-color!important;
-  }
-   
-i{
-    font-size: 2em;
-    transition: 0.2s ease-out;
-    
-    
-}
-i:hover{
-    cursor: pointer;
-   transform: translate(10%, -10% );
-   color: $green-color;
-}
+footer {
+  width: 20px;
+  position: fixed;
+  bottom: 0px;
+  left: 40px;
+  z-index: 10;
 
+  .contact-icons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+  }
+  a {
+    color: $grey-color !important;
+    &:last-child::after {
+      content: "";
+      width: 3px;
+      height: 120px;
+      background-color: $green-color;
+      display: block;
+      margin-left: 13px;
+      margin-top: 10px;
+    }
+  }
+
+  i {
+    @include contactIcons;
+    &:hover {
+      @include contactIconHover;
+    }
+  }
 }

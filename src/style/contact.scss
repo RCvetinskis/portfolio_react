@@ -1,0 +1,29 @@
+.contact-mobile {
+  display: none;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  height: 50vh;
+  gap: 20px;
+  h1 {
+    color: $green-color;
+    font-weight: 600;
+  }
+  p {
+    color: $grey-color;
+    font-size: 1.2em;
+  }
+  .contact-icons {
+    display: flex;
+    gap: 25px;
+  }
+  a {
+    color: $grey-color;
+  }
+  i {
+    @include contactIcons;
+    &:hover {
+      @include contactIconHover;
+    }
+  }
+}
