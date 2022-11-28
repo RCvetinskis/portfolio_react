@@ -13,11 +13,12 @@ const UpComingProjects = () => {
           </p>
         </div>
         <div className="app-goal">
-          Creating user friendly gym application so users could track progress,
-          update weights, reps, count total time spent in the gym and kcal
-          burned.
+          I am creating a user-friendly gym application so users could track
+          progress, update weights, and reps, and count total time spent in the
+          gym and kcal burned.
           <br />
-          Application will have all gym exercises with example or description.
+          The application will have all gym exercises with examples or
+          descriptions.
           <br />
         </div>
       </div>
