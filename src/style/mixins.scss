@@ -1,20 +1,26 @@
-@mixin green-btn{
-    background-color: $darkblue-color;
-    border: 1px solid $green-color;
-    color: $green-color;
-    border-radius: 4px;
-   
+@mixin green-btn {
+  background-color: $darkblue-color;
+  border: 1px solid $green-color;
+  color: $green-color;
+  border-radius: 4px;
 }
 @mixin repo-btn {
-    background-color: $darkblue-color;
-    border: 1px solid $green-color;
-    color: $grey-color;
-    border-radius: 4px;
-    transition: 0.3s ease-in-out;
-    
+  background-color: $darkblue-color;
+  border: 1px solid $green-color;
+  color: $grey-color;
+  border-radius: 4px;
+  transition: 0.3s ease-in-out;
 }
 @mixin repo-btn-hover {
-    transform: scale(1.1);
-    color: $green-color;
-    
+  transform: scale(1.1);
+  color: $green-color;
+}
+@mixin contactIcons {
+  font-size: 2em;
+  transition: 0.2s ease-out;
+}
+@mixin contactIconHover {
+  cursor: pointer;
+  transform: translate(10%, -10%);
+  color: $green-color;
 }

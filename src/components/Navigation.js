@@ -160,6 +160,23 @@ const Navigation = ({ showContent, setShowContent }) => {
             >
               Projects
             </li>
+            <li
+              style={
+                showContent === "Contact"
+                  ? {
+                      color: "#06d6a0",
+                      transform: "translate(0%, 30%)",
+                      boxShadow: "2px 2px #06d6a0",
+                    }
+                  : { color: "inherit" }
+              }
+              onClick={() => {
+                setShowContent("Contact");
+                setShowBurger(!showBurger);
+              }}
+            >
+              Contact
+            </li>
 
             <li>
               <a rel="noreferrer" target="_blank" href={MyCv}>

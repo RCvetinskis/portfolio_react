@@ -5,11 +5,11 @@ import About from "./components/About";
 import Repositories from "./components/Repositories";
 import Knowledge from "./components/Knowledge";
 import ProjectsContainer from "./components/ProjectsContainer";
+import Contact from "./components/Contact";
 import { Helmet } from "react-helmet-async";
 import { useState } from "react";
 
 function App() {
-  // singlepage , on navigation click show content with sliding animation, for project use react slick, repositories fetch with github api,
   const [showContent, setShowContent] = useState("About");
 
   return (
@@ -28,6 +28,8 @@ function App() {
           <Knowledge />
         ) : showContent === "Projects" ? (
           <ProjectsContainer />
+        ) : showContent === "Contact" ? (
+          <Contact />
         ) : (
           <About />
         )}
