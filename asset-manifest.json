@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/portfolio_react/static/css/main.40ad0250.css",
+    "main.js": "/portfolio_react/static/js/main.0d668033.js",
+    "static/js/787.aeca62f9.chunk.js": "/portfolio_react/static/js/787.aeca62f9.chunk.js",
+    "static/media/gym-gif.gif": "/portfolio_react/static/media/gym-gif.02ae058e6c5d964c4e82.gif",
+    "static/media/Screenshot_2022-11-27-17-49-43-001_host.exp.exponent.jpg": "/portfolio_react/static/media/Screenshot_2022-11-27-17-49-43-001_host.exp.exponent.4c8cf28079fe78327e2b.jpg",
+    "static/media/robinzonascreenshot.png": "/portfolio_react/static/media/robinzonascreenshot.94049502f754321c73e4.png",
+    "static/media/mylogo.gif": "/portfolio_react/static/media/mylogo.ba27400bb17034eb616b.gif",
+    "static/media/profilepic.jpg": "/portfolio_react/static/media/profilepic.a2d4a6f5a86ee20a33bb.jpg",
+    "static/media/robertas-cvetinskis.pdf": "/portfolio_react/static/media/robertas-cvetinskis.9a166caa709e889a1101.pdf",
+    "static/media/dipomaphoto.png": "/portfolio_react/static/media/dipomaphoto.5e338432b8d0ad210965.png",
+    "index.html": "/portfolio_react/index.html",
+    "main.40ad0250.css.map": "/portfolio_react/static/css/main.40ad0250.css.map",
+    "main.0d668033.js.map": "/portfolio_react/static/js/main.0d668033.js.map",
+    "787.aeca62f9.chunk.js.map": "/portfolio_react/static/js/787.aeca62f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.40ad0250.css",
+    "static/js/main.0d668033.js"
+  ]
+}
