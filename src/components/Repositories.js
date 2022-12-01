@@ -32,8 +32,8 @@ const Repositories = ({ showContent }) => {
       dispatch({ type: "FETCH_REQUEST" });
       try {
         const result = await axios.get(REPOS_API);
-        const slicedData = result.data.slice(47, 69);
-        dispatch({ type: "FETCH_SUCCESS", payload: slicedData });
+        const data = result.data;
+        dispatch({ type: "FETCH_SUCCESS", payload: data });
       } catch (err) {
         dispatch({ type: "FETCH_FAIL", payload: err });
       }
